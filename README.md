@@ -3,7 +3,7 @@
 ![](https://2.bp.blogspot.com/-BOa91Nbp9FU/WyuhO_0k1sI/AAAAAAAARIA/wn8-wBidYAIdI1Y6kT3PAczsKRu2gjllACLcBGAs/s1600/kubectlToMangerClusterInsideMinikubeVM.PNG)
 
 ## Installation Guide
-The only pre-requisite for this guide is that you have Homebrew installed. Homebrew is a package manager for the Mac. You’ll also need Homebrew Cask, which you can install after Homebrew by running 
+The only pre-requisite for this guide is that you have [Homebrew](https://brew.sh/) installed. Homebrew is a package manager for the Mac. You’ll also need Homebrew Cask, which you can install after Homebrew by running 
 
 ```
 brew tap caskroom/cask
@@ -19,6 +19,7 @@ For Mac using Homebrew. VirtualBox lets you run virtual machines on your Mac (li
 
 ```
 brew cask install virtualbox
+brew cask install virtualbox-extension-pack
 ```
 
 ### 3. Install kubectl for Mac
